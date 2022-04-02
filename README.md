@@ -1,15 +1,39 @@
-# Predicting Housing Price with Machine Learning
+<div align="center">
+    <br>
+    <img src="Images\Repo_logo.svg" width="600" title="hover text">
+    <p>
+    <br>This repository contains my approach to the <a href="https://www.kaggle.com/c/home-data-for-ml-course">Housing Prices Competition</a> on Kaggle.
+    </p>
+    <hr/>
+</div>
 
-This repository contains my approach to the [Housing Prices Competition](https://www.kaggle.com/c/home-data-for-ml-course) on Kaggle.
+<p align="center">
+    <a href="https://nbviewer.org/github/KOrfanakis/Housing_Prices_Regression/blob/main/01-Exploratory_Data_Analysis.ipynb">
+        <img alt="Nbviewer_01" src="https://img.shields.io/badge/Notebook%2301%20-nbviewer-red.svg">
+    </a>
+    <a href="https://nbviewer.org/github/KOrfanakis/Housing_Prices_Regression/blob/main/02-Preprocessing_and_Predictions.ipynb">
+        <img alt="Nbviewer_02" src="https://img.shields.io/badge/Notebook%2302%20-nbviewer-red.svg">
+    </a>
+    <br/>
+</p>
+
+<p align="center">
+    <a href="https://www.python.org/">
+        <img alt="Made With" src="https://img.shields.io/badge/Made%20with-Python-blue.svg">
+    </a>
+    <a href="https://jupyter.org/">
+        <img alt="Jupyter" src="https://img.shields.io/badge/And%20-Jupyter-orange.svg">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img alt="Licence" src="https://img.shields.io/badge/License-MIT-0298c3.svg">
+    </a>
+    <a>
+        <img alt="Star if useful" src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=darkgreen">
+    </a>
+    <br/>
+</p>
 
 <br>
-
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1524813686514-a57563d77965?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" width="700" title="hover text">
-</p>
-<p align="center">
-  <em>Photo by Tom Rumble (Unsplash)</em>
-</p>
 
 **Table of Contents**:
 
@@ -21,6 +45,7 @@ This repository contains my approach to the [Housing Prices Competition](https:/
 * [Accuracy Metric](#accuracy-metric)
 * [Results](#results)
 * [References](#references)
+* [Feedback](#feedback)
 <!--te-->
 
 <br>
@@ -79,3 +104,17 @@ In terms of the competition, this model puts us at the **94<sup>th</sup> positio
 ## References
 
 For a complete list of references, please refer to the end of each notebook. I used the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Ed.)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) to construct the Business Objective section of this file.  
+
+<br>
+
+# Feedback
+
+If you have any feedback or ideas to improve this project, feel free to contact me via:
+
+<a href="https://twitter.com/korfanakis">
+  <img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+
+<a href="https://uk.linkedin.com/in/korfanakis">
+  <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
