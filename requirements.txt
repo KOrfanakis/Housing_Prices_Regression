@@ -1,0 +1,10 @@
+matplotlib==3.5.1
+seaborn==0.11.2
+watermark==2.3.0
+pandas==1.4.1
+numpy==1.22.2
+missingno==0.5.1
+scipy==1.8.0
+sklearn==1.0.2
+lightgbm==3.3.2
+re==2.2.1
