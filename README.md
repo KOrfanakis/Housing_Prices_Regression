@@ -50,7 +50,7 @@
 
 <br>
 
-## Motivation
+# Motivation
 
 Imagine that we are hired as data scientists by a real-estate company. The company has compiled a dataset describing the sale of individual residential property in Ames, Iowa, from 2006 to 2010. Our task is to use the data and build a Machine Learning (ML) model that predicts the price of a house given its characteristics.
 
@@ -62,7 +62,7 @@ Imagine that we are hired as data scientists by a real-estate company. The compa
 
 <br>
 
-## Business Objective
+# Business Objective
 
 The first question we need to ask our employers is what exactly the business objective is. Building an ML model is probably not the end goal. How does the company expect to benefit from this model?
 
@@ -72,7 +72,7 @@ Our employers also informed us that housing prices are currently estimated manua
 
 <br>
 
-## Data
+# Data
 
 The competition uses the Ames Housing dataset, which was compiled by Dean De Cock for use in data science education. The dataset contains 2919 instances/observations and 80 explanatory features describing (almost) every aspect of residential homes in Ames. For the complete list of features, please see the [documentation file](https://www.kaggle.com/c/home-data-for-ml-course/data?select=data_description.txt).
 
@@ -84,14 +84,14 @@ The discrepancy in the number of features is because the training set is labelle
 
 <br>
 
-## Repository Structure
+# Repository Structure
 
 Our approach is divided into two notebooks; one for the Exploratory Data Analysis (**01-Exploratory_Data_Analysis.ipynb**) and one for pre-processing our data and building ML models (**02-Preprocessing_and_Predictions.ipynb**).
 The datasets (training and test set) are included in a separate folder, along with a sample submission CSV file. This file will be used as a sample to format our submission in a suitable way for valuation by Kaggle’s online system. Finally, our predictions are included as CSV files in the ‘Submission_Files’ folder.
 
 <br>
 
-## Accuracy Metric
+# Accuracy Metric
 
 To assess the models' accuracy, we will be scoring the models against the Mean Absolute Error (MAE):
 
@@ -99,7 +99,7 @@ To assess the models' accuracy, we will be scoring the models against the Mean A
 
 <br>
 
-## Results
+# Results
 
 After pre-processing our data, we selected four candidate algorithms (Ridge, Lasso, SVR, and LGBM Regressor). Then, we optimised their performance by performing hyperparameter tuning. The SVR model is the best model with a **MAE ~12,788**. If we assume the median house price (163,000), we get an **error rate ~7.8%**. Therefore, the final performance of our system is **better** than the expert’s price estimates, which are often off by about 10%. Apart from the improved performance, launching this model will free up some time for the experts so that they can work on more interesting and productive tasks.
 
@@ -107,7 +107,7 @@ In terms of the competition, this model puts us at the **94<sup>th</sup> positio
 
 <br>
 
-## References
+# References
 
 For a complete list of references, please refer to the end of each notebook. I used the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Ed.)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) to construct the Business Objective section of this file.  
 
