@@ -56,6 +56,12 @@ Imagine that we are hired as data scientists by a real-estate company. The compa
 
 <br>
 
+**Skills**: *Exploratory Data Analysis, Data Visualisation, Data Pre-processing (Missing Value Imputation, Label Encoding, One-hot Encoding, Dealing with Outliers, Feature Engineering, Feature Selection, Feature Scaling), Building Machine Learning Models, Model Tuning*
+
+**Models Used**: *Ridge Regression, Lasso Regression, SVR, LGBMRegressor*
+
+<br>
+
 ## Business Objective
 
 The first question we need to ask our employers is what exactly the business objective is. Building an ML model is probably not the end goal. How does the company expect to benefit from this model?
